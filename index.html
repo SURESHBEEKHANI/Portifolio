@@ -1,382 +1,284 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Ayushi Mahariye</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
-    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
-    <link rel="stylesheet" href="css/animate.css">
-    
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">
+<head>
+	<title>SURESH BEEKHANI</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="stylesheet" href="css/aos.css">
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/ionicons.min.css">
-    
-    <link rel="stylesheet" href="css/flaticon.css">
-    <link rel="stylesheet" href="css/icomoon.css">
-    <link rel="stylesheet" href="css/style.css">
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<link rel="stylesheet" href="css/aos.css">
+	<link rel="stylesheet" href="css/ionicons.min.css">
+	<link rel="stylesheet" href="css/flaticon.css">
+	<link rel="stylesheet" href="css/icomoon.css">
+	<link rel="stylesheet" href="css/style.css">
 
+	<!-- Inline Styles for Custom Animations and Effects -->
+	<style>
+		/* About Section */
+		.about-mf .box-shadow-full {
+			padding-top: 4rem;
+			padding-bottom: 4rem;
+		}
 
+		.about-mf .about-img img {
+			margin-left: 10px;
+		}
 
-<style>
+		.skill-mf .progress {
+			margin: 0.5rem 0 1.2rem;
+			border-radius: 0;
+			height: 0.7rem;
+		}
 
-/*======================================
-//--//-->   ABOUT
-======================================*/
+		.skill-mf .progress .progress-bar {
+			background-color: #ffbd39;
+		}
 
-.about-mf .box-shadow-full {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
-}
+		/* Typing Animation */
+		#typing-animation {
+			font-size: 30px;
+			font-weight: bold;
+			color: #fff;
+			overflow: hidden;
+			white-space: nowrap;
+			animation: typing 3s steps(20, end) infinite;
+		}
 
-.about-mf .about-img {
-  margin-bottom: 2rem;
-}
+		#typing-animation:before {
+			content: "";
+			animation: typing-cursor 0.5s ease-in-out infinite;
+		}
 
-.about-mf .about-img img {
-  margin-left: 10px;
-}
+		@keyframes typing {
+			from {
+				width: 0;
+			}
 
+			to {
+				width: 100%;
+			}
+		}
 
-.skill-mf .progress {
-  /* background-color: #cde1f8; */
-  margin: .5rem 0 1.2rem 0;
-  border-radius: 0;
-  height: .7rem;
-}
+		@keyframes typing-cursor {
+			from {
+				width: 5px;
+			}
 
-.skill-mf .progress .progress-bar {
-  height: .7rem;
-  background-color: #ffbd39;
-}
+			to {
+				width: 0;
+			}
+		}
 
+		/* Project Image Zoom Effect */
+		.zoom-effect {
+			transition: transform 0.3s ease-out;
+		}
 
-/* Animation styles */
-#typing-animation {
-  position: relative;
-  font-size: 30px;
-  font-weight: bold;
-  color: rgb(255, 255, 255);
-  overflow: hidden;
-  white-space: nowrap;
-  animation: typing 3s steps(20, end) infinite;
-}
+		.zoom-effect:hover {
+			transform: scale(1.1);
+		}
+	</style>
+</head>
 
-#typing-animation:before {
-  content: "";
-  /* position: absolute; */
-  top: 0;
-  left: 0;
-  width: 0;
-  height: 100%;
-  background-color: #ccc;
-  animation: typing-cursor 0.5s ease-in-out infinite;
-}
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 
-@keyframes typing {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
-  }
-}
+	<!-- Navbar -->
+	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
+		<div class="container">
+			<a class="navbar-brand" href="index.html">SURESH BEEKHANI</a>
+			<button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse"
+				data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="oi oi-menu"></span> Menu
+			</button>
+			<div class="collapse navbar-collapse" id="ftco-nav">
+				<ul class="navbar-nav nav ml-auto">
+					<li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
+					<li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
+					<li class="nav-item"><a href="#resume-section" class="nav-link"><span>Resume</span></a></li>
+					<li class="nav-item"><a href="#project-section" class="nav-link"><span>Projects</span></a></li>
+					<li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
 
-@keyframes typing-cursor {
-  from {
-    width: 5px;
-  }
-  to {
-    width: 0;
-  }
-}
-
-
-/* project image zoom effect */
-
-.zoom-effect {
-  overflow: hidden;
-  transition: transform 0.3s ease-out;
-}
-
-.zoom-effect:hover {
-  transform: scale(1.1);
-}
-
-
-</style>
-
-
-  </head>
-  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
-	  
-	  
-    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
-	    <div class="container">
-	      <a class="navbar-brand" href="index.html">Ayushi Mahariye</a>
-	      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-	        <span class="oi oi-menu"></span> Menu
-	      </button>
-
-	      <div class="collapse navbar-collapse" id="ftco-nav">
-	        <ul class="navbar-nav nav ml-auto">
-	          <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
-	          <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
-	          <li class="nav-item"><a href="#resume-section" class="nav-link"><span>Resume</span></a></li>
-	          <li class="nav-item"><a href="#project-section" class="nav-link"><span>Projects</span></a></li>
-	          <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
-	        </ul>
-	      </div>
-	    </div>
-	  </nav>
-	  <section id="home-section" class="hero">
+	<!-- Home Section -->
+	<section id="home-section" class="hero">
 		<div class="home-slider owl-carousel">
 			<div class="slider-item">
 				<div class="overlay"></div>
 				<div class="container">
-					<div class="row d-md-flex no-gutters slider-text align-items- justify-content-lg-end" data-scrollax-parent="true">
-						<div >
-							<div class="overlay"></div>
-						</div>
+					<div class="row no-gutters slider-text align-items-center justify-content-lg-end">
 						<div class="col-md-6 d-flex justify-content-center align-items-center">
-							<img src="https://cdn.dribbble.com/users/176039/screenshots/9022929/media/b21392d51355d99c7b82a5fedf2c4f85.gif" alt="Profile Image" class="img-fluid" style="max-width: 90%; height: auto;">
+							<img src="https://cdn.dribbble.com/users/176039/screenshots/9022929/media/b21392d51355d99c7b82a5fedf2c4f85.gif"
+								alt="Profile Image" class="img-fluid" style="max-width: 90%; height: auto;">
 						</div>
-	
-						<div class="one-forth d-flex align-items-lg-start justify-content-lg-start ftco-animate" data-scrollax="properties: { translateY: '70%' }">
-							<div class="text text-center">
-								<span class="subheading">Hello!</span>
-								<h1 class="mb-8 mt-8">I'm <span>Ayushi Mahariye</span></h1>
-	
-								<!-- Element to contain animated typing -->
-								<span id="typing-animation"></span>
-	
-								<script>
-									// Initialize the typing animation
-									const typingAnimationElement = document.getElementById('typing-animation');
-	
-									// Create an array of typing text
-									const typingTexts = [
-										'Data Scientist',
-										'Data Analyst',
-										'Business Analyst',
-									];
-	
-									// Create a function to display the typing animation for a given text
-									function playTypingAnimation(text) {
-										// Loop through each character and add it to the element
-										for (let i = 0; i < text.length; i++) {
-											setTimeout(() => {
-												typingAnimationElement.textContent += text[i];
-											}, i * 200); // Increase the delay to slow down the typing animation
-										}
-	
-										// Once the animation is complete, reset the text and start over
-										setTimeout(() => {
-											typingAnimationElement.textContent = '';
-											playTypingAnimation(typingTexts[(typingTexts.indexOf(text) + 1) % typingTexts.length]);
-										}, text.length * 200 + 1000); // Add delay before starting next text
+						<div class="col-md-6 text-center">
+							<span class="subheading">Hello!</span>
+							<h1 class="mb-8 mt-8">I'm <span>SURESH BEEKHANI</span></h1>
+							<span id="typing-animation"></span>
+							<h2>A Data Scientist Intern</h2>
+							<p>
+								<a href="https://github.com/SURESHBEEKHANI"
+									class="btn btn-white btn-outline-white py-3 px-4">My works</a>
+							</p>
+							<script>
+								// Typing Animation JavaScript
+								const typingAnimationElement = document.getElementById('typing-animation');
+								const typingTexts = ['Data Scientist', 'Data Analyst', 'Business Analyst'];
+
+								function playTypingAnimation(text) {
+									for (let i = 0; i < text.length; i++) {
+										setTimeout(() => { typingAnimationElement.textContent += text[i]; }, i * 200);
 									}
-	
-									// Start the typing animation loop
-									playTypingAnimation(typingTexts[0]);
-								</script>
-	
-								<br>
-								<h2>A Data Scientist Intern</h2>
-								<p>
-									<a href="https://github.com/ayushi-mahariye" class="btn btn-white btn-outline-white py-3 px-4">My works</a>
-								</p>
-							</div>
+									setTimeout(() => {
+										typingAnimationElement.textContent = '';
+										playTypingAnimation(typingTexts[(typingTexts.indexOf(text) + 1) % typingTexts.length]);
+									}, text.length * 200 + 1000);
+								}
+								playTypingAnimation(typingTexts[0]);
+							</script>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
-	
 
-
-    <section class="ftco-about img ftco-section ftco-no-pb" id="about-section">
-    	<div class="container">
-			<div class="row">
-				<div class="row d-flex align-items-stretch">
-				<!-- <div class="row d-flex"> -->
-					<div class="col-md-6 col-lg-5 d-flex">
-						<div class="img-about img d-flex align-items-stretch">
-							<div class="overlay">
-								<div class="row">
-									<div class="col-sm-6 col-md-5">
-									  <div class="about-img">
-										<img src="images/MyImg-modified.png" class="img-fluid rounded b-shadow-a" alt="">
-									  </div>
-									</div>
-									<!-- Details next to profile image -->
-									<div class="col-sm-6 col-md-7">
-									  <div class="about-info">
-										<p><span class="title-s">Name: </span> <span>Ayushi Mahariye</span></p>
-										<p><span class="title-s">Job Role: </span> <span>Data Scientist Intern</span></p>
-										<p><span class="title-s">Experience: </span> <span>6 Months</span></p>
-										<p><span class="title-s">Address: </span> <span>Ghaziabad, India</span></p>
-									  </div>
-									</div>
-								  </div>
-
-								<div class="skill-mf">
-									<p class="title-s">Skills</p>
-									<span>SQL</span> <span class="pull-right">95%</span>
-									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0"
-											aria-valuemax="100"></div>
-									</div>
-									
-									<span>PYTHON</span> <span class="pull-right">85%</span>
-									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0"
-											aria-valuemax="100"></div>
-									</div>
-									
-									<span>Data Visualization</span> <span class="pull-right">90%</span>
-									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0"
-											aria-valuemax="100"></div>
-									</div>
-									
-									<span>Statistical Analysis</span> <span class="pull-right">85%</span>
-									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0"
-											aria-valuemax="100"></div>
-									</div>
-									
-									<span>Machine Learning</span> <span class="pull-right">80%</span>
-									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0"
-											aria-valuemax="100"></div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					
-					<div class="col-md-6 col-lg-7 pl-lg-5 pb-5">
-						<div class="row justify-content-start pb-3">
-							<div class="col-md-12 heading-section ftco-animate">
-								
-								<h1 class="big">About</h1>
-								<h2 class="mb-4">About Me</h2>
-								
-								<p>Aspiring Data Scientist and Business Analytics with focus
-									on Feature Engineering, Machine Learning, NLP, Deep
-									Learning. Data using Visualization Power BI and Excel and
-									Python Programming Language</p>
-								<ul class="about-info mt-4 px-md-0 px-2">
-									<li class="d-flex"><span>Profile:</span> <span>Data Science &amp; Analytics</span></li>
-									<li class="d-flex"><span>Education:</span> <span>Bachelor of Technology</span></li>
-									<li class="d-flex"><span>Language:</span> <span>English, Hindi</span></li>
-									<li class="d-flex"><span>BI Tools:</span> <span>Microsoft Power BI, Matplotlib  &amp; MS Excel</span></li>
-									<li class="d-flex"><span>Other Skills:</span> <span>Numpy, Pandas, Git, Tensorflow,scikit-learn,NLTK,Keras,OpenCV, EDA&amp; Probalitity & Statistics</span></li>
-									<li class="d-flex"><span>Interest:</span> <span>Traveling, Cooking</span></li>
-									
-								</ul>
-							</div>
-						</div>
-
-
-						<div class="counter-wrap ftco-animate d-flex mt-md-3">
-							<div class="text">
-								<p><a href="https://www.linkedin.com/in/ayushi-mahariye-86927b324/" class="btn btn-primary py-3 px-3">LinkedIn</a></p>
-							</div>
-						</div>
+	<!-- About Section -->
+	<section class="ftco-about img ftco-section ftco-no-pb" id="about-section">
+		<div class="container">
+			<div class="row align-items-stretch">
+				<div class="col-md-6 col-lg-5">
+					<div class="about-img">
+						<img src="images/MyImg-modified.png" class="img-fluid rounded b-shadow-a" alt="Profile Image">
 					</div>
 				</div>
-			</div>
-		</div>
-    </section>
-
-
-
-	
-    <section class="ftco-section ftco-no-pb" id="resume-section">
-    	<div class="container">
-    		<div class="row justify-content-center pb-5">
-          <div class="col-md-10 heading-section text-center ftco-animate">
-          	<h1 class="big big-2">Resume</h1>
-            <h2 class="">Resume</h2>
-            <p>"Data Scientist and Business Analyst with a strong focus on Feature Engineering, Machine Learning, Natural Language Processing (NLP), and Deep Learning. Skilled in data visualization using Power BI, Excel, and Python, aiming to drive impactful, data-driven insights and solutions."
-
-			</p>
-          </div>
-        </div>
-		<div class="row justify-content-center mt-5">
-			<div class="col-md-6 text-center ftco-animate">
-				<p><a href="Ayushi Mahariye.pdf" class="btn btn-primary py-4 px-5">Download CV</a></p>
-			</div>
-		</div>
-		<div class="row">
-			<h1 class="big-4">Experience</h1>
-			<div class="underline"></div>
-		</div>
-		<br>
-		
-		<div class="row">
-			<div class="col-md-8">
-				<div class="resume-wrap ftco-animate">
-					<span class="date">2024-Present</span>
-					<h2>Data Scientist Intern</h2>
-					<span class="position">ONLEI Technologies </span>
-					<p class="mt-4"> 
-							<h5>Worked on diverse data science projects involving:</h5>
-							<li>	Model Development: Created machine learning
-								models using Python, TensorFlow, and Scikit-learn.</li>
-								<li> Data Analysis: Analyzed data and created
-								visualizations with Pandas and Matplotlib.</li>
-								<li>Interactive Apps: Built web applications using
-								Streamlit for data visualization.</li>
-								<li> Real-time Systems: Applied OpenCV and TensorFlow
-								in real-time projects like drowsiness detection.</li>
-								<li>NLP: Used NLTK for sentiment analysis of customer
-								reviews.</li>
-						</ul>
+				<div class="col-md-6 col-lg-7 pl-lg-5">
+					<h2>About Me</h2>
+					<p>
+						Aspiring Machine Learning Engineer, focused on AI chatbots, deep learning, and NLP.
+						Proficient in feature engineering, implementing machine learning algorithms,
+						and utilizing transformers and LLMs. Skilled in Python, flaskAPI, and data visualization tools.
 					</p>
+					<ul class="about-info mt-4 px-md-0 px-2">
+						<li><span>Profile:</span> Data Science &amp; Analytics Professional</li>
+						<li><span>Education:</span> Bachelor of Science in Computer Science</li>
+						<li><span>Languages:</span> English (Fluent), Urdu (Fluent)</li>
+						<li><span>BI Tools:</span> Microsoft Power BI, MS Excel, Matplotlib, Seaborn</li>
+						<li><span>Programming &amp; Libraries:</span> Python (Numpy, Pandas, scikit-learn, TensorFlow, Keras, NLTK, OpenCV, LangChain)</li>
+						<li><span>Version Control:</span> Git, GitHub, DVC, MLflow</li>
+						<li><span>Data Processing &amp; Analysis:</span> Exploratory Data Analysis (EDA), Probability &amp; Statistics</li>
+						<li><span>Machine Learning Algorithms:</span> Linear Regression, Logistic Regression, Decision Trees, Random Forests, K-Means Clustering, Support Vector Machines (SVM), Naive Bayes</li>
+						<li><span>Deep Learning:</span> Neural Networks, Convolutional Neural Networks (CNNs), Recurrent Neural Networks (RNNs), Long Short-Term Memory (LSTM)</li>
+						<li><span>Generative AI &amp; LLMs:</span> Large Language Models (LLMs), Transformer Models (GPT, BERT), Prompt Engineering, Text Generation, Question Answering</li>
+						<li><span>Databases:</span> MySQL, PostgreSQL,Vector database</li>
+						<li><span>Deployment:</span> AWS Cloud, Docker</li>
+						<li><span>Interests:</span> Traveling, Cooking</li>
+					</ul>
+					
+
+
+
+					<div class="counter-wrap d-flex mt-md-3">
+						<a href="https://www.linkedin.com/in/suresh-beekhani/"
+							class="btn btn-primary py-3 px-3">LinkedIn</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+
+	<section class="ftco-section ftco-no-pb" id="resume-section">
+		<div class="container">
+			<div class="row justify-content-center pb-5">
+				<div class="col-md-10 heading-section text-center ftco-animate">
+					<h1 class="big-4">Resume</h1>
+					<p>"Data Scientist and Business Analyst with expertise in Feature Engineering, Machine Learning, 
+					Natural Language Processing (NLP), Deep Learning, and Generative AI. Proficient in using Large Language Models (LLMs), 
+					Transformer Models, and prompt engineering to build innovative AI solutions. 
+					Skilled in data visualization with Power BI, Excel, and Python, 
+					focused on driving impactful, data-driven insights and strategic solutions across complex business challenges."</p>
+
+				</div>
+			</div>
+			<div class="row justify-content-center mt-5">
+				<div class="col-md-6 text-center ftco-animate">
+					<p><a href="https://drive.google.com/drive/folders/1nenB6s7mXNZllsPHh2-74QziMBLU-U6b?usp=sharing" class="btn btn-primary py-4 px-5">Download CV</a></p>
+				</div>
+			</div>
+			<div class="row">
+				<h1 class="big-4">Experience</h1>
+				<div class="underline"></div>
+			</div>
+			<br>
+
+			<div class="row">
+				<div class="col-md-8">
+					<div class="resume-wrap ftco-animate">
+						<span class="date">2024-Present</span>
+						<h2>Data Scientist Intern</h2>
+						<span class="position">ONLEI Technologies </span>
+						<p class="mt-4">
+						<h5>Worked on diverse data science projects involving:</h5>
+						<li> Model Development: Created machine learning
+							models using Python, TensorFlow, and Scikit-learn.</li>
+						<li> Data Analysis: Analyzed data and created
+							visualizations with Pandas and Matplotlib.</li>
+						<li>Interactive Apps: Built web applications using
+							Streamlit for data visualization.</li>
+						<li> Real-time Systems: Applied OpenCV and TensorFlow
+							in real-time projects like drowsiness detection.</li>
+						<li>NLP: Used NLTK for sentiment analysis of customer
+							reviews.</li>
+						</ul>
+						</p>
+					</div>
+
 				</div>
 
 			</div>
 
-		</div>
+			<br>
+			<br>
 
-		<br>
-		<br>
-
-		<div class="row">
-			<h1 class="big-4">Education</h1>
-			<div class="underline"></div>
-		</div>
-		<br>
-		
 			<div class="row">
-    			<div class="col-md-6">
-    				<div class="resume-wrap ftco-animate">
-    					<span class="date">2021-2025</span>
-    					<h2>Bachelor of Technology</h2>
-    					<span class="position">APJ Abdul Kalam Technical University</span>
-    					<p class="mt-4">Grade: First class distinction.</p>
-    				</div>
-    			</div>
+				<h1 class="big-4">Education</h1>
+				<div class="underline"></div>
+			</div>
+			<br>
 
-    			<div class="col-md-6">
-    				<div class="resume-wrap ftco-animate">
-    					<span class="date">2020-2021</span>
-    					<h2>Higher Secondary School</h2>
-    					<span class="position">Heritage Academy</span>
-    					<p class="mt-4">Grade: First class distinction.</p>
-    				</div>
+			<div class="row">
+				<div class="col-md-6">
+					<div class="resume-wrap ftco-animate">
+						<span class="date">2018-2022</span>
+						<h2>BS Computer Science Graduate </h2>
+						<span class="position">Sir Syed University of Engineering and Technology</span>
+						<p class="mt-4">Grade: A</p>
+					</div>
 				</div>
-    		</div>
+
+				<div class="col-md-6">
+					<div class="resume-wrap ftco-animate">
+						<span class="date">2015-2017</span>
+						<h2>Higher Secondary School</h2>
+						<span class="position">Karachi American School (KAS)</span>
+						<p class="mt-4">Grade: First class distinction.</p>
+					</div>
+				</div>
+			</div>
 			<br>
 			<br>
 			<div class="row">
@@ -384,226 +286,244 @@
 				<div class="underline"></div>
 			</div>
 			<br>
-			
-				<div class="row">
-					<div class="col-md-6">
-						<div class="resume-wrap ftco-animate">
-							
-							<h2>Complete Data science and Machine Learning  using Python</h2>
-							<p>Completed a course covering key machine learning techniques
-								like regression, classification, clustering, and deep learning
-								using Python. Gained hands-on experience with tools like
-								NumPy, Pandas, and Scikit-learn
-							</p>
-							<p><a href="images/Copy of ONLEITC_page-0001.jpg" class="btn btn-primary py-3 px-3">View Certificate</a></p>
 
-						</div>
-					</div>
-	
-					<div class="col-md-6">
-						<div class="resume-wrap ftco-animate">
-							<h2>Completed Internship as a data Science Intern</h2>
-							<p>During my internship, I used Python for development and
-								machine learning, Streamlit for web apps, and MySQL for data
-								management. I applied OpenCV for image processing,
-								TensorFlow and Scikit-learn for machine learning, NLTK for NLP,
-								and Pandas for data manipulation</p>
-							<p><a href="images/ONLEI-Exp.6M_page-0001.jpg" class="btn btn-primary py-3 px-3">View Certificate</a></p>
+			<div class="row">
+				<div class="col-md-6">
+					<div class="resume-wrap ftco-animate">
 
-						</div>
+						<h2>Certified Data Scientist: Mastering Analytics & Machine Learning 🎉</h2>
+						<p>Gain expertise in data analysis, predictive modeling, and machine learning techniques with our comprehensive Data Science certification. Learn to extract insights from data, build advanced predictive models, and leverage cutting-edge algorithms to drive data-driven decisions.
+						</p>
+						<p><a href="https://drive.google.com/file/d/1vdc397G5jyR1VUe4Vt3lO2WG-N4pMRO-/view?usp=sharing" class="btn btn-primary py-3 px-3">View
+								Certificate</a></p>
+
 					</div>
 				</div>
-    	</div>
-    </section>
 
-   
+				<div class="col-md-6">
+					<div class="resume-wrap ftco-animate">
+						<h2>Machine Learning 🎉</h2>
+                        <p>built a strong foundation in machine learning, gaining the skills to create predictive models and derive valuable insights from data.
 
-    <section class="ftco-section" id="project-section">
-      <div class="container">
-        <div class="row justify-content-center mb-5 pb-5">
-          <div class="col-md-7 heading-section text-center ftco-animate">
-            <h1 class="big big-2">Projects</h1>
-            <h2 class="mb-4">Projects</h2>
-            <p>Below are the sample Data Analytics projects on SQL, Python, Power BI & ML.</p>
-          </div>
-        </div>
-        <div class="row d-flex">
-          <div class="col-md-4 d-flex ftco-animate">
-          	<div class="blog-entry justify-content-end">
-              <a href="https://github.com/ayushi-mahariye/Customer-Management-sytstem" class="block-20 zoom-effect" style="background-image: url('images/Customer-Management-System-Banner (1).jpg');">
-              </a>
-              <div class="text mt-3 float-right d-block">
 
-                <h3 class="heading"><a href="https://github.com/ayushi-mahariye/Customer-Management-sytstem">Customer Management System  using SQL and Python</a></h3>
-                <p>Developed a system for managing customer records with CRUD operations. Implemented CRUD functionalities using Python and MySQL to manage customer data, including personal information,
-					contact details, and customer interaction</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 d-flex ftco-animate">
-          	<div class="blog-entry justify-content-end">
-              <a href="https://github.com/ayushi-mahariye/Drowsiness-detection-system" class="block-20 zoom-effect" style="background-image: url('images/images.jpeg');">
-              </a>
-              <div class="text mt-3 float-right d-block">
 
-                <h3 class="heading"><a href="https://github.com/ayushi-mahariye/Drowsiness-detection-system">Drowsiness detection System Using Machine Learning</a></h3>
-                <p>Developed a machine learning-based system to
-					detect driver drowsiness in real-time, aimed at
-					enhancing road safety by preventing accidents
-					caused by fatigue</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 d-flex ftco-animate">
-          	<div class="blog-entry">
-              <a href="https://github.com/ayushi-mahariye/Adidas-Sales-Dashboard-using-PowerBI" class="block-20 zoom-effect" style="background-image: url('images/proj_3.jpg');">
-              </a>
-              <div class="text mt-3 float-right d-block">
+						</p>
 
-                <h3 class="heading"><a href="https://github.com/ayushi-mahariye/Adidas-Sales-Dashboard-using-PowerBI">Power BI  Adidas Sales dashboard Project using PowerBI</a></h3>
-                <p>Developed a sales analysis dashboard to visualize
-					Adidas’ sales performance, including revenue,
-					product performance, and customer segmentation
-					across various regions and channels.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-	<br>
-		<!-- added justify-content-center to center align the last two projects -->
-		<div class="row d-flex justify-content-center">  
-			<div class="col-md-4 d-flex ftco-animate">
-				<div class="blog-entry justify-content-end">
-				<a href="https://github.com/ayushi-mahariye/Amazon-Review-Sentiment-Analysis-System" class="block-20 zoom-effect" style="background-image: url('images/1_BZ1lC-OYpeoboZOIIBdNEA.png');">
-				</a>
-				<div class="text mt-3 float-right d-block">
-  
-				  <h3 class="heading"><a href="https://github.com/ayushi-mahariye/Amazon-Review-Sentiment-Analysis-System">Amazon review Sentiment Analysis System</a></h3>
-				  <p>eveloped a sentiment analysis system to
-					classify Amazon product reviews as positive,
-					negative, or neutral, providing insights into
-					customer satisfaction</p>
+						<p><a href="https://www.kaggle.com/learn/certification/sureshbeekhani/intro-to-machine-learning" class="btn btn-primary py-3 px-3">View
+								Certificate</a></p>
+
+					</div>
 				</div>
-			  </div>
 			</div>
-			<div class="col-md-4 d-flex ftco-animate">
-				<div class="blog-entry justify-content-end">
-				<a href="https://github.com/ayushi-mahariye/Fraud_transaction_detection_model" class="block-20 zoom-effect" style="background-image: url('images/0_aH57NAkEfKj0zLoj.jpg');">
-				</a>
-				<div class="text mt-3 float-right d-block">
-  
-				  <h3 class="heading"><a href="https://github.com/ayushi-mahariye/Fraud_transaction_detection_model">Fraud Transaction Detection Model</a></h3>
-				  <p>develop a sophisticated fraud detection system that accurately identifies and prevents fraudulent financial transactions. By leveraging machine learning and advanced data analytics, we aim to enhance the security and trust of financial systems.
-
-				  </p>
-				</div>
-			  </div>
-			</div>
-		 </div>
-	  </div>
-    </section>
-
-	
-
-			<!-- <div class="container"> -->
-				<div class="row justify-content-center">
-					<div class="col-md-7 ftco-animate text-center">
-						<h2>More projects on<span> Github  </span> </h2>
-						<div class="heading"> <h4> I love to solve business problems &amp; uncover hidden data stories </h4>
-						<br>
-						<p><a href="https://github.com/ayushi-mahariye" class="btn btn-primary py-3 px-5">GitHub</a></p>
-						</div>
-					</div>
-				</div>
-			<!-- </div> -->
 		</div>
 	</section>
 
 
 
-    <section class="ftco-section contact-section ftco-no-pb" id="contact-section">
-      <div class="container">
-      	<div class="row justify-content-center mb-5 pb-3">
-          <div class="col-md-7 heading-section text-center ftco-animate">
-            <h1 class="big big-2">Contact</h1>
-            <h2 class="mb-4">Contact Me</h2>
-            <p>Below are the details to reach out to me!</p>
-          </div>
-        </div>
-
-        <div class="row d-flex contact-info mb-5">
-          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
-          	<div class="align-self-stretch box p-4 text-center">
-          		<div class="icon d-flex align-items-center justify-content-center">
-          			<span class="icon-map-signs"></span>
-          		</div>
-          		<h3 class="mb-4">Address</h3>
-	            <p>Ghaziabad, India</p>
-	          </div>
-          </div>
-          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
-          	<div class="align-self-stretch box p-4 text-center">
-          		<div class="icon d-flex align-items-center justify-content-center">
-          			<span class="icon-phone2"></span>
-          		</div>
-          		<h3 class="mb-4">Contact Number</h3>
-	            <p><a href="tel://0101010101">+91 9759278066</a></p>
-	          </div>
-          </div>
-          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
-          	<div class="align-self-stretch box p-4 text-center">
-          		<div class="icon d-flex align-items-center justify-content-center">
-          			<span class="icon-paper-plane"></span>
-          		</div>
-          		<h3 class="mb-4">Email Address</h3>
-	            <p><a href="mailto:ayushimahariye449@gmail.com">contactme.com</a></p>
-	          </div>
-          </div>
-          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
-          	<div class="align-self-stretch box p-4 text-center">
-          		<div class="icon d-flex align-items-center justify-content-center">
-          			<span class="icon-globe"></span>
-          		</div>
-          		<h3 class="mb-4">Download Resume</h3>
-	            <p><a href="Ayushi Mahariye.pdf">resumelink</a></p>
-	          </div>
-          </div>
-
-		  <div class="container">
-			<br>
-			<br>
-			<div class="row justify-content-center">
-			</div>
-				<br>
-		   </div>
-   </div>
- </section>
-
+	<section class="ftco-section" id="project-section">
 		<div class="container">
-		  <div class="row">
-		  </div>
+			<div class="row justify-content-center mb-5 pb-5">
+				<div class="col-md-7 heading-section text-center ftco-animate">
+					<h2 class="mb-4">Projects</h2>
+					<p>Below are the sample Data Science projects on Python,AI & ML.</p>
+				</div>
+			</div>
+			<div class="row d-flex">
+				<div class="col-md-4 d-flex ftco-animate">
+					<div class="blog-entry justify-content-end">
+						<a href="https://github.com/SURESHBEEKHANI/Kidney-Disease-Classification.git"
+							class="block-20 zoom-effect"
+							style="background-image: url('images/Customer-Management-System-Banner (1).jpg');">
+						</a>
+						<div class="text mt-3 float-right d-block">
+
+							<h3 class="heading"><a
+									href="https://github.com/SURESHBEEKHANI/Kidney-Disease-Classification.git">Kidney-Disease-Classification </a></h3>
+							<p>Kidney Disease Classification with MLflow and DVC This project classifies kidney disease using a CNN model, with DVC for data and model versioning and MLflow for tracking experiments. It supports a full ML pipeline, from data ingestion to model training and evaluation.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 d-flex ftco-animate">
+					<div class="blog-entry justify-content-end">
+						<a href="https://github.com/SURESHBEEKHANI/Student-Exam-Performance-Prediction.git"
+							class="block-20 zoom-effect" style="background-image: url('images/images.jpeg');">
+						</a>
+						<div class="text mt-3 float-right d-block">
+
+							<h3 class="heading"><a href="https://github.com/SURESHBEEKHANI/Student-Exam-Performance-Prediction.git
+								">Student-Exam-Performance-Prediction</a></h3>
+							<p>Developed a machine learning-based system to
+								detect driver drowsiness in real-time, aimed at
+								enhancing road safety by preventing accidents
+								caused by fatigue</p>Student-Exam-Performance-Prediction
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 d-flex ftco-animate">
+					<div class="blog-entry">
+						<a href="https://github.com/SURESHBEEKHANI/Loan-Eligibility-Prediction.git"
+							class="block-20 zoom-effect" style="background-image: url('images/proj_3.jpg');">
+						</a>
+						<div class="text mt-3 float-right d-block">
+
+							<h3 class="heading"><a
+									href="https://github.com/SURESHBEEKHANI/Loan-Eligibility-Prediction.git">Loan-Eligibility-Prediction</a></h3>
+							<p>machine learning project for predicting loan eligibility based on applicant data, including income, loan amount, CIBIL score, and other key factors.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<br>
+			<!-- added justify-content-center to center align the last two projects -->
+			<div class="row d-flex justify-content-center">
+				<div class="col-md-4 d-flex ftco-animate">
+					<div class="blog-entry justify-content-end">
+						<a href="https://github.com/SURESHBEEKHANI/Movie-Recommender-System.git"
+							class="block-20 zoom-effect"
+							style="background-image: url('images/Movie-Recommender-System.PNG');">
+						</a>
+						<div class="text mt-3 float-right d-block">
+
+							<h3 class="heading"><a
+									href="https://github.com/SURESHBEEKHANI/Movie-Recommender-System.git">Movie-Recommender-System</a>
+							</h3>
+							<p>Content-based filtering recommends movies based on the features of the items (movies) and
+								a profile of the user's preferences. The system analyzes movie attributes such as genre,
+								director, cast, and plot keywords to recommend similar movies that match a user's past
+								preferences.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 d-flex ftco-animate">
+					<div class="blog-entry justify-content-end">
+						<a href="https://github.com/SURESHBEEKHANI/Chat-with-MySQL.git"
+							class="block-20 zoom-effect"
+							style="background-image: url('images/0_aH57NAkEfKj0zLoj.jpg');">
+						</a>
+						<div class="text mt-3 float-right d-block">
+
+							<h3 class="heading"><a	
+									href="https://github.com/SURESHBEEKHANI/Chat-with-MySQL.git">Conversational
+								SQL Assistant Powered by AI</a></h3>
+							<p>enables users to query a MySQL database using natural language. It translates questions
+								into SQL, executes them, and returns the results in plain language. Powered by LangChain
+								and Groq, the app makes database querying simple for non-technical users.
+
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
-	  </footer>
+		</div>
+	</section>
 
 
-  <!-- loader -->
-  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+	<!-- <div class="container"> -->
+	<div class="row justify-content-center">
+		<div class="col-md-7 ftco-animate text-center">
+			<h2>More projects on<span> Github </span> </h2>
+			<div class="heading">
+				<h4> I love to solve business problems &amp; uncover hidden data stories </h4>
+				<br>
+				<p><a href="https://github.com/SURESHBEEKHANI" class="btn btn-primary py-3 px-5">GitHub</a></p>
+			</div>
+		</div>
+	</div>
+	<!-- </div> -->
+	</div>
+	</section>
 
 
-  <script src="js/jquery.min.js"></script>
-  <script src="js/jquery-migrate-3.0.1.min.js"></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/jquery.easing.1.3.js"></script>
-  <script src="js/jquery.waypoints.min.js"></script>
-  <script src="js/jquery.stellar.min.js"></script>
-  <script src="js/owl.carousel.min.js"></script>
-  <script src="js/jquery.magnific-popup.min.js"></script>
-  <script src="js/aos.js"></script>
-  <script src="js/jquery.animateNumber.min.js"></script>
-  <script src="js/scrollax.min.js"></script>
-  
-  <script src="js/main.js"></script>
-    
-  </body>
+
+	<section class="ftco-section contact-section ftco-no-pb" id="contact-section">
+		<div class="container">
+			<div class="row justify-content-center mb-5 pb-3">
+				<div class="col-md-7 heading-section text-center ftco-animate">
+					<h2 class="mb-4">Contact Me</h2>
+					<p>Below are the details to reach out to me!</p>
+				</div>
+			</div>
+
+			<div class="row d-flex contact-info mb-5">
+				<div class="col-md-6 col-lg-3 d-flex ftco-animate">
+					<div class="align-self-stretch box p-4 text-center">
+						<div class="icon d-flex align-items-center justify-content-center">
+							<span class="icon-map-signs"></span>
+						</div>
+						<h3 class="mb-4">Address</h3>
+						<p>Karachi,PAKISTAN</p>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-3 d-flex ftco-animate">
+					<div class="align-self-stretch box p-4 text-center">
+						<div class="icon d-flex align-items-center justify-content-center">
+							<span class="icon-phone2"></span>
+						</div>
+						<h3 class="mb-4">Contact Number</h3>
+						<p><a href="tel://0101010101">+92 3401213187</a></p>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-3 d-flex ftco-animate">
+					<div class="align-self-stretch box p-4 text-center">
+						<div class="icon d-flex align-items-center justify-content-center">
+							<span class="icon-paper-plane"></span>
+						</div>
+						<h3 class="mb-4">Email Address</h3>
+						<p><a href="mailto:SURESHBEEKHANI26@gmail.com">contactme.com</a></p>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-3 d-flex ftco-animate">
+					<div class="align-self-stretch box p-4 text-center">
+						<div class="icon d-flex align-items-center justify-content-center">
+							<span class="icon-globe"></span>
+						</div>
+						<h3 class="mb-4">Download Resume</h3>
+						<p><a href="Ayushi Mahariye.pdf">resumelink</a></p>
+					</div>
+				</div>
+
+				<div class="container">
+					<br>
+					<br>
+					<div class="row justify-content-center">
+					</div>
+					<br>
+				</div>
+			</div>
+	</section>
+
+	<div class="container">
+		<div class="row">
+		</div>
+	</div>
+	</footer>
+
+
+	<!-- loader -->
+	<div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
+			<circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
+			<circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
+				stroke="#F96D00" />
+		</svg></div>
+
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery-migrate-3.0.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.easing.1.3.js"></script>
+	<script src="js/jquery.waypoints.min.js"></script>
+	<script src="js/jquery.stellar.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/aos.js"></script>
+	<script src="js/jquery.animateNumber.min.js"></script>
+	<script src="js/scrollax.min.js"></script>
+
+	<script src="js/main.js"></script>
+
+</body>
+
 </html>
